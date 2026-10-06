@@ -1,0 +1,21 @@
+{
+  "name": "minicode",
+  "description": "A terse terminal coding agent powered by Google Gemini models",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "entrypoint": "minicode_agent:MinicodeAgent",
+  "capabilities": {
+    "supports_atif": false,
+    "supports_windows": false,
+    "supports_gui": false
+  },
+  "environment_variables": [
+    "GEMINI_API_KEY",
+    "MODEL",
+    "MINICODE_PATH"
+  ],
+  "dependencies": [
+    "python-dotenv",
+    "google-genai"
+  ]
+}

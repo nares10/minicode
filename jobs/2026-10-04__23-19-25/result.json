@@ -1,0 +1,37 @@
+{
+    "id": "929c231a-9cac-4db8-9d7d-99eec4393c99",
+    "started_at": "2026-10-04T23:19:28.796425",
+    "updated_at": "2026-10-04T23:19:29.607403",
+    "finished_at": "2026-10-04T23:19:29.607403",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "minicode__claude-opus-5-5__terminal-bench/terminal-bench": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {},
+                "exception_stats": {
+                    "RuntimeError": [
+                        "layout-config-recreation2__5V2vDBs"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

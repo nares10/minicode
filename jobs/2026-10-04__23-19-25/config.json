@@ -1,0 +1,21 @@
+{
+    "job_name": "2026-10-04__23-19-25",
+    "install_only": true,
+    "n_concurrent_trials": 1,
+    "verifier": {
+        "disable": true
+    },
+    "agents": [
+        {
+            "name": "harbor_adapter.minicode_agent:MinicodeAgent",
+            "model_name": "anthropic/claude-opus-5-5"
+        }
+    ],
+    "datasets": [
+        {
+            "name": "terminal-bench/terminal-bench",
+            "ref": "sha256:39d9f44b40420cde8fdcc087579c0d72a7e14fa3656d603c3f0d22fb35e27732",
+            "n_tasks": 1
+        }
+    ]
+}
